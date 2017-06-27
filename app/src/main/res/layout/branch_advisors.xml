@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/branch_advisors_image"
+        android:src="@drawable/ieee_msit"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/branch_advisors_name"
+        tools:text="Mr. Sitender"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/branch_advisors_post"
+        tools:text="Branch Counselor, IEEE MSIT"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/branch_advisors_email"
+        tools:text="sitender@msit.in"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical"/>
+
+
+
+</LinearLayout>
