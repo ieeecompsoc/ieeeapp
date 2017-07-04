@@ -10,7 +10,7 @@
         android:layout_width="85dp"
         android:layout_height="85dp"
         android:id="@+id/branch_advisors_image"
-        android:src="@drawable/ieee_msit"/>
+        tools:src="@drawable/ieee_msit"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
