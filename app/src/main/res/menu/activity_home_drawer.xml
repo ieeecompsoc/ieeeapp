@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_welcome"
+            android:title="@string/welcome_title" />
+        <item
+            android:id="@+id/nav_about_ieee"
+            android:title="@string/about_ieee_title" />
+        <item
+            android:id="@+id/nav_about_ieee_msit"
+            android:title="@string/about_ieee_msit_title" />
+        <item
+            android:id="@+id/nav_executive_committee"
+            android:title="@string/executive_committee_title" />
+        <item
+            android:id="@+id/nav_branch_advisors"
+            android:title="@string/branch_advisors_title" />
+        <item
+            android:id="@+id/nav_upcoming_events"
+            android:title="@string/upcoming_events_title" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:title="@string/contact_us_title" />
+        <item
+            android:id="@+id/nav_android_team"
+            android:title="@string/android_team_title" />
+    </group>
+
+</menu>

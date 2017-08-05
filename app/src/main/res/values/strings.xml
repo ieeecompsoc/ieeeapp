@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">IEEE MSIT</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Navigation Drawer Titles -->
+    <string name="welcome_title">Welcome to IEEE MSIT!</string>
+    <string name="about_ieee_title">About IEEE</string>
+    <string name="about_ieee_msit_title">About IEEE MSIT</string>
+    <string name="executive_committee_title">Executive Committee</string>
+    <string name="branch_advisors_title">Branch Advisors</string>
+    <string name="upcoming_events_title">Upcoming Events</string>
+    <string name="contact_us_title">Contact Us</string>
+    <string name="android_team_title">Android Team</string>
 </resources>
