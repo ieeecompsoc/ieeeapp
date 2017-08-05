@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">IEEE MSIT</string>
     <string name="action_settings">Settings</string>
+
     <string name="title_activity_home">HomeActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -15,4 +16,64 @@
     <string name="upcoming_events_title">Upcoming Events</string>
     <string name="contact_us_title">Contact Us</string>
     <string name="android_team_title">Android Team</string>
+
+    <!-- About IEEE page text -->
+    <string name="about_ieee_text">The Institute of Electrical and Electronics Engineers (IEEE, read I-Triple-E) is a professional association headquartered in New York City that is dedicated to advancing technological innovation and excellence. It has about 425,000 members in about 160 countries, slightly less than half of whom reside in the United States. IEEE is the world\’s largest professional association dedicated to advancing technological innovation and excellence for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities. IEEE\'s membership has long been composed of engineers, scientists, and allied professionals. These include computer scientists, software developers, information technology professionals, physicists, medical doctors, and many others. It is an association designed to serve professionals involved in all aspects of the electrical, electronic and computing fields and related areas of science and technology that underlie modern civilization.</string>
+    <string name="about_ieee_quick_facts_heading_text">IEEE Quick Facts:</string>
+    <string name="about_ieee_quick_facts_text">IEEE has:\n\n
+        • More than 425,000 members in more than 160 countries, more than 50 percent of whom are from outside the
+        United States\n
+        • More than 116,000 Student members\n
+        • 333 Sections in 10 geographic regions worldwide\n
+        • 2,195 Chapters that unite local members with similar technical interests\n
+        • 2,354 student branches at colleges and universities\n
+        • 800 student branch chapters of IEEE technical societies</string>
+    <string name="about_ieee_last_para_text">At the pre-college level, the IEEE works with industry, universities and government to raise students\’ literacy in science, maths, engineering and technology. IEEE journals are consistently among the most highly cited in electrical and electronics engineering, telecommunications and other technical fields. IEEE is a leading developer of international standards that underpin many of today\'s telecommunications, information technology and power generation products and services. IEEE also produces technical books, monographs, guides and textbooks.</string>
+
+    <!-- About IEEE MSIT page text -->
+    <string name="para1_about_ieee_msit">It was the onset of the year 2009. IEEE, USA was celebrating its 125th anniversary. Thousands of miles away, a new student branch was being formed with a mere strength of around 30 members. Without any guidance or previous experience, the Branch Counselor and her ExeCom were struggling hard to give this student branch an orientation and structure. After one year, the student branch was termed as the fastest upcoming branches in the entire Delhi Section, while the branch counselor received the rare honour of \“Best Branch Counselor of an Upcoming Branch\” at the Annual General Meeting of IEEE, Delhi Section. Yes, the branch is none other than our own college, i.e. Maharaja Surajmal Institute Of Technology.</string>
+    <string name="para2_about_ieee_msit">The student branch of MSIT was registered with IEEE, USA in March, 2009 and it marked the beginning of the journey of IEEE, MSIT onto the path of constant upgradations and developments. The reins of this newly formed branch were given in the capable hands of Ms. Suman Mann, Reader, IT Department and she assumed the responsibility of Branch Counselor, IEEE, MSIT.</string>
+    <string name="para3_about_ieee_msit">Many seminars and workshops were organized by the IEEE Student Branch in its
+        endeavor. These included a workshop by Mr. Ankit Mittal on Basic Robotics and Autonomous Robots, which was held
+        in collaboration with IEEE, Delhi Section. Similarly, a 2-day workshop on Wireless/Autonomous Robotics, I-MANIA, was organized at the campus in collaboration with OSUM-MSIT. Both the events were a huge success. By the year end, an IEEE awareness seminar was held with guest speakers from IEEE, DTU (formerly DCE). It helped create awareness among the students about the benefits of joining IEEE and helped in the rise in number of memberships in the present academic year.</string>
+    <string name="para4_about_ieee_msit">IEEE-MSIT is gradually becoming a name which engineers of various institutes have started to recognize. As Robert Frost once said… \“Miles to go before I sleep, Miles to go before I sleep.\”</string>
+
+    <!-- Executive Committee -->
+    <!-- Ayush Girdhar -->
+    <string name="name1">Chairperson:\nAyush Girdhar</string>
+    <string name="link11">ayush.g.girdhar@ieee.org</string>
+
+    <!-- Nakul Singh Adhikari -->
+    <string name="name2">Vice-Chairperson:\nNakul Singh Adhikari</string>
+    <string name="link21">nakuladhikari.in.96@ieee.org</string>
+
+    <string name="name3">Vice-Chairperson:\nSarthak Agarwal</string>
+    <string name="name4">General Secretary:\nRashika Mann</string>
+    <string name="name5">Treasurer:\nRishabh Jain</string>
+    <string name="name6">Industrial Relations:\nAashish Kapoor</string>
+    <string name="name7">Public Relations:\nAyush Makkar</string>
+    <string name="name8">Public Relations:\nShivam Sehgal</string>
+    <string name="name9">Public Relations:\nKshitij Tomar</string>
+
+
+
+
+
+    <!--
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+-->
 </resources>

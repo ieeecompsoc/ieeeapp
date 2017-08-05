@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey_100"
+            tools:context="in.msit.ieee.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/PageHeadingTextStyle"
+            android:text="@string/about_ieee_msit_title"/>
+
+        <ImageView
+            android:layout_width="212dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ieee_msit"/>
+
+        <TextView
+            style="@style/ParagraphTextStyle"
+            android:text="@string/para1_about_ieee_msit"/>
+
+        <TextView
+            style="@style/ParagraphTextStyle"
+            android:text="@string/para2_about_ieee_msit"/>
+
+        <View style="@style/DividerStyle"/>
+
+        <TextView
+            style="@style/ParagraphTextStyle"
+            android:text="@string/para3_about_ieee_msit"/>
+
+        <TextView
+            style="@style/ParagraphTextStyle"
+            android:text="@string/para4_about_ieee_msit"/>
+
+    </LinearLayout>
+</ScrollView>
