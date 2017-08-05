@@ -5,53 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical"
     tools:context="in.msit.ieee.MainActivity">
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/contacts"
-            android:layout_width="match_parent"
-            android:text="Contact Us"
-            android:textSize="20sp"
-            android:layout_height="60dp"/>
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-        <TextView
-            android:id="@+id/ieee_msit"
-            android:layout_width="match_parent"
-            android:text="About IEEE MSIT"
-            android:textSize="20sp"
-            android:layout_height="60dp"/>
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/branch_advisors"
-            android:layout_width="match_parent"
-            android:text="Branch Advisors"
-            android:layout_height="60dp"
-            android:textSize="20sp"/>
-    </FrameLayout>
-
-    <TextView
-        android:id="@+id/team"
-        android:layout_width="match_parent"
-        android:text="Android Team"
-        android:layout_height="60dp"
-        android:textSize="20sp"/>
 
 
 </LinearLayout>
