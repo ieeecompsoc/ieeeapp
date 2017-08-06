@@ -1,41 +1,36 @@
-<!--<?xml version="1.0" encoding="utf-8"?>-->
-<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent">-->
-
-    <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:orientation="vertical"-->
-        <!--android:padding="@dimen/activity_vertical_margin">-->
-
-        <!--<TextView-->
-            <!--style="@style/PageHeadingTextStyle"-->
-            <!--android:text="@string/about_ieee_title" />-->
-
-        <!--<TextView-->
-            <!--style="@style/ParagraphTextStyle"-->
-            <!--android:text="@string/about_ieee_text" />-->
-
-        <!--<View style="@style/DividerStyle"/>-->
-
-        <!--<TextView-->
-            <!--style="@style/ParagraphHeadingTextStyle"-->
-            <!--android:text="@string/about_ieee_quick_facts_heading_text" />-->
-
-        <!--<TextView-->
-            <!--style="@style/ParagraphTextStyle"-->
-            <!--android:text="@string/about_ieee_quick_facts_text" />-->
-
-        <!--<View style="@style/DividerStyle"/>-->
-
-        <!--<TextView-->
-            <!--style="@style/ParagraphTextStyle"-->
-            <!--android:text="@string/about_ieee_text" />-->
-    <!--</LinearLayout>-->
-<!--</ScrollView>-->
-
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/PageHeadingTextStyle"
+            android:text="@string/about_ieee_title" />
+
+        <TextView
+            style="@style/ParagraphTextStyle"
+            android:text="@string/about_ieee_text" />
+
+        <View style="@style/DividerStyle"/>
+
+        <TextView
+            style="@style/ParagraphHeadingTextStyle"
+            android:text="@string/about_ieee_quick_facts_heading_text" />
+
+        <TextView
+            style="@style/ParagraphTextStyle"
+            android:text="@string/about_ieee_quick_facts_text" />
+
+        <View style="@style/DividerStyle"/>
+
+        <TextView
+            style="@style/ParagraphTextStyle"
+            android:text="@string/about_ieee_text" />
+    </LinearLayout>
+</ScrollView>

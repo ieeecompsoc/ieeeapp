@@ -55,8 +55,28 @@
     <string name="name8">Public Relations:\nShivam Sehgal</string>
     <string name="name9">Public Relations:\nKshitij Tomar</string>
 
+    <!-- Counsellors and Advisors -->
+    <string name="teacher1">Mr. Sitender\n\nBranch Counselor, IEEE MSIT\n\nsitender@msit.in</string>
+    <string name="teacher2">Ms. Savita Ahlawat\n\nChapter Advisor, IEEE CS MSIT\n\nsavita.ahlawat@gmail.com</string>
+    <string name="teacher3">Mr. Parveen Kumar\n\nChapter Advisor, IEEE MTT-S MSIT\n\nparveen@msit.in</string>
+    <string name="teacher4">Ms. Jyoti Jain\n\nChapter Advisor, IEEE PES MSIT\n\njyotijain_in@yahoo.com</string>
 
 
+    <!-- Contact Us -->
+    <string name="contact_us_heading">Get in touch with us</string>
+    <string name="r1c1">IEEE MSIT Student Branch</string>
+    <string name="r1c2">ieee@msit.in</string>
+    <string name="r2c1">IEEE CS MSIT SBC</string>
+    <string name="r2c2">ieeecs@msit.in</string>
+    <string name="r3c1">IEEE MTT-S MSIT SBC</string>
+    <string name="r3c2">ieeemtts@msit.in</string>
+    <string name="r4c1">IEEE PES MSIT SBC</string>
+    <string name="r4c2">ieeepes@msit.in</string>
+    <string name="r5c1">IEEE WIE MSIT SBC</string>
+    <string name="r5c2">ieeewie@msit.in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
     <!--
