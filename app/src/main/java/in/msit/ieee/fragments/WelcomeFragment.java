@@ -1,12 +1,18 @@
 package in.msit.ieee.fragments;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import in.msit.ieee.R;
 
 /**
@@ -15,6 +21,7 @@ import in.msit.ieee.R;
  * create an instance of this fragment.
  */
 public class WelcomeFragment extends Fragment {
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -60,7 +67,25 @@ public class WelcomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.page_welcome, container, false);
+        View view =  inflater.inflate(R.layout.page_welcome, container, false);
+
+        ButterKnife.bind(this, view);
+
+        return view;
+    }
+
+    @OnClick(R.id.join_ieee_button)
+    public void joinIeee() {
+        Uri uri = Uri.parse("https://goo.gl/q77xGJ");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.follow_fb_button)
+    public void followFb() {
+        Uri uri = Uri.parse("https://goo.gl/K9jTCG");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
     }
 
 }

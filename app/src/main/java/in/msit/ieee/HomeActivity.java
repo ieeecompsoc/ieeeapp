@@ -15,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import butterknife.OnClick;
 import in.msit.ieee.fragments.AboutIEEEFragment;
 import in.msit.ieee.fragments.AboutIEEEMSITFragment;
 import in.msit.ieee.fragments.AndroidTeamFragment;
@@ -44,6 +45,8 @@ public class HomeActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         displaySelectedPage(R.id.nav_welcome);
+
+        setTitle("");
     }
 
     @Override

@@ -28,11 +28,11 @@ public class AboutIEEEMSITFragment extends Fragment {
         return inflater.inflate(R.layout.page_about_ieee_msit, container, false);
     }
 
-    @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
-        getActivity().setTitle(R.string.about_ieee_msit_title);
-    }
+//    @Override
+//    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+//        super.onViewCreated(view, savedInstanceState);
+//
+//        getActivity().setTitle(R.string.about_ieee_msit_title);
+//    }
 
 }
