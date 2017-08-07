@@ -51,15 +51,6 @@
                         android:paddingStart="@dimen/margin_small"
                         android:text="@string/name1"/>
 
-                    <TextView
-                        style="@style/ParagraphTextStyle"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/margin_small"
-                        android:paddingEnd="@dimen/margin_small"
-                        android:paddingStart="@dimen/margin_small"
-                        android:text="@string/link11"/>
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -121,15 +112,6 @@
                         android:paddingEnd="@dimen/margin_small"
                         android:paddingStart="@dimen/margin_small"
                         android:text="@string/name2"/>
-
-                    <TextView
-                        style="@style/ParagraphTextStyle"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/margin_small"
-                        android:paddingEnd="@dimen/margin_small"
-                        android:paddingStart="@dimen/margin_small"
-                        android:text="@string/link21"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"

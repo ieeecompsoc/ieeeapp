@@ -56,10 +56,10 @@
     <string name="name9">Public Relations:\nKshitij Tomar</string>
 
     <!-- Counsellors and Advisors -->
-    <string name="teacher1">Mr. Sitender\n\nBranch Counselor, IEEE MSIT\n\nsitender@msit.in</string>
-    <string name="teacher2">Ms. Savita Ahlawat\n\nChapter Advisor, IEEE CS MSIT\n\nsavita.ahlawat@gmail.com</string>
-    <string name="teacher3">Mr. Parveen Kumar\n\nChapter Advisor, IEEE MTT-S MSIT\n\nparveen@msit.in</string>
-    <string name="teacher4">Ms. Jyoti Jain\n\nChapter Advisor, IEEE PES MSIT\n\njyotijain_in@yahoo.com</string>
+    <string name="teacher1">Mr. Sitender\n\nBranch Counselor, IEEE MSIT</string>
+    <string name="teacher2">Ms. Savita Ahlawat\n\nChapter Advisor, IEEE CS MSIT</string>
+    <string name="teacher3">Mr. Parveen Kumar\n\nChapter Advisor, IEEE MTT-S MSIT</string>
+    <string name="teacher4">Ms. Jyoti Jain\n\nChapter Advisor, IEEE PES MSIT</string>
 
 
     <!-- Contact Us -->

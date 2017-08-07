@@ -20,6 +20,7 @@
             <android.support.v7.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:id="@+id/ics_logo"
                 android:layout_marginEnd="@dimen/margin_small"
                 android:layout_weight="1"
                 android:background="@drawable/touch_ripple"
@@ -39,6 +40,7 @@
             <android.support.v7.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:id="@+id/mtts_logo"
                 android:layout_weight="1"
                 android:background="@drawable/touch_ripple"
                 android:backgroundTint="@color/colorPrimary"
@@ -60,10 +62,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:orientation="horizontal">
 
             <android.support.v7.widget.CardView
                 android:layout_width="0dp"
+                android:id="@+id/pes_logo"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/margin_small"
                 android:layout_weight="1"
@@ -83,6 +87,7 @@
             <android.support.v7.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:id="@+id/wie_logo"
                 android:layout_weight="1"
                 android:backgroundTint="@color/colorPrimary"
                 android:gravity="center">
@@ -98,6 +103,14 @@
             </android.support.v7.widget.CardView>
 
         </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:visibility="gone"
+            android:id="@+id/info_container"
+            android:layout_height="wrap_content"/>
 
 
         <Button
