@@ -10,5 +10,4 @@
         android:text="ics"
         android:padding="44dp"
         android:layout_height="wrap_content"/>
-
 </LinearLayout>

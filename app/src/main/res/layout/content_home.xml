@@ -52,6 +52,11 @@
         tools:context="in.msit.ieee.HomeActivity"
         tools:showIn="@layout/content_home">
 
+        <fragment
+            android:layout_width="match_parent"
+            android:name="in.msit.ieee.fragments.WelcomeFragment"
+            android:layout_height="match_parent" />
+
     </FrameLayout>
 
 </android.support.design.widget.CoordinatorLayout>
