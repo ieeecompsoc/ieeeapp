@@ -1,5 +1,7 @@
 package in.msit.ieee;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -16,6 +18,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 import in.msit.ieee.fragments.AboutIEEEFragment;
 import in.msit.ieee.fragments.AboutIEEEMSITFragment;
@@ -23,37 +27,54 @@ import in.msit.ieee.fragments.AndroidTeamFragment;
 import in.msit.ieee.fragments.BranchAdvisorsFragment;
 import in.msit.ieee.fragments.ContactUsFragment;
 import in.msit.ieee.fragments.ExecutiveCommitteeFragment;
+import in.msit.ieee.fragments.InfoICSFragment;
+import in.msit.ieee.fragments.InfoMTTSFragment;
+import in.msit.ieee.fragments.InfoPESFragment;
+import in.msit.ieee.fragments.InfoWIEFragment;
 import in.msit.ieee.fragments.UpcomingEventsFragment;
 import in.msit.ieee.fragments.WelcomeFragment;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private static final String BACK_STACK_ROOT_TAG = "root_fragment";
+    @BindView(R.id.nav_view)
+    NavigationView navigationView;
+
+    @BindView(R.id.toolbar)
+    Toolbar toolbar;
+
+    @BindView(R.id.drawer_layout)
+    DrawerLayout drawer;
+
+    public static final String BACK_STACK_ROOT_TAG = "root_fragment";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        ButterKnife.bind(this);
+
         setSupportActionBar(toolbar);
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.popBackStack(BACK_STACK_ROOT_TAG, FragmentManager.POP_BACK_STACK_INCLUSIVE);
-        // Add the new tab fragment
-        fragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, new WelcomeFragment())
-                .addToBackStack(BACK_STACK_ROOT_TAG)
-                .commit();
+        navigationView.setCheckedItem(R.id.nav_welcome);
+        
+        final FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.addOnBackStackChangedListener(new FragmentManager.OnBackStackChangedListener() {
+            @Override
+            public void onBackStackChanged() {
+                int count = fragmentManager.getBackStackEntryCount();
+                if(count == 0) {
+                    navigationView.setCheckedItem(R.id.nav_welcome);
+                }
+            }
+        });
 
         setTitle("");
     }
@@ -78,14 +99,17 @@ public class HomeActivity extends AppCompatActivity
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
+
         return true;
     }
 
     private void displaySelectedPage(int id) {
         Fragment fragment = null;
 
+        FragmentManager fragmentManager = getSupportFragmentManager();
+
         if (id == R.id.nav_welcome) {
-            fragment = new WelcomeFragment();
+            fragmentManager.popBackStack(BACK_STACK_ROOT_TAG, FragmentManager.POP_BACK_STACK_INCLUSIVE);
         } else if (id == R.id.nav_about_ieee) {
             fragment = new AboutIEEEFragment();
         } else if (id == R.id.nav_about_ieee_msit) {
@@ -104,12 +128,55 @@ public class HomeActivity extends AppCompatActivity
 
         //replacing the fragment
         if (fragment != null) {
-            FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.popBackStack(BACK_STACK_ROOT_TAG, FragmentManager.POP_BACK_STACK_INCLUSIVE);
             FragmentTransaction ft = fragmentManager.beginTransaction();
             ft.replace(R.id.fragment_container, fragment);
             ft.addToBackStack(BACK_STACK_ROOT_TAG);
             ft.commit();
         }
+    }
+
+    @OnClick(R.id.ics_logo)
+    public void showICSInfo() {
+        addFragment(new InfoICSFragment());
+    }
+
+    @OnClick(R.id.mtts_logo)
+    public void showMTTSInfo() {
+        addFragment(new InfoMTTSFragment());
+    }
+
+    @OnClick(R.id.pes_logo)
+    public void showPESInfo() {
+        addFragment(new InfoPESFragment());
+    }
+
+    @OnClick(R.id.wie_logo)
+    public void showWIEInfo() {
+        addFragment(new InfoWIEFragment());
+    }
+
+    private void addFragment(Fragment fragment) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.popBackStack(BACK_STACK_ROOT_TAG, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+        FragmentTransaction ft = fragmentManager.beginTransaction();
+        ft.replace(R.id.fragment_container, fragment);
+        ft.addToBackStack(BACK_STACK_ROOT_TAG);
+        ft.commit();
+    }
+
+
+    @OnClick(R.id.join_ieee_button)
+    public void joinIeee() {
+        Uri uri = Uri.parse("https://goo.gl/q77xGJ");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.follow_fb_button)
+    public void followFb() {
+        Uri uri = Uri.parse("https://goo.gl/K9jTCG");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
     }
 }
