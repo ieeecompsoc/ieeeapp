@@ -152,7 +152,6 @@ public class ExecutiveCommitteeFragment extends Fragment {
         Toast.makeText(getContext(), "Not available at the moment!", Toast.LENGTH_SHORT).show();
     }
 
-
     @OnClick(R.id.gmail8)
     public void gmail8() {
         openGmail("shivamsehgal019@gmail.com");

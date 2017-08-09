@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">IEEE MSIT</string>
     <string name="action_settings">Settings</string>
 
@@ -40,20 +40,20 @@
 
     <!-- Executive Committee -->
     <!-- Ayush Girdhar -->
-    <string name="name1">Chairperson:\nAyush Girdhar</string>
+    <string name="name1">Chairperson: Ayush Girdhar</string>
     <string name="link11">ayush.g.girdhar@ieee.org</string>
 
     <!-- Nakul Singh Adhikari -->
-    <string name="name2">Vice-Chairperson:\nNakul Singh Adhikari</string>
+    <string name="name2">Vice-Chairperson: Nakul Singh Adhikari</string>
     <string name="link21">nakuladhikari.in.96@ieee.org</string>
 
-    <string name="name3">Vice-Chairperson:\nSarthak Agarwal</string>
-    <string name="name4">General Secretary:\nRashika Mann</string>
-    <string name="name5">Treasurer:\nRishabh Jain</string>
-    <string name="name6">Industrial Relations:\nAashish Kapoor</string>
-    <string name="name7">Public Relations:\nAyush Makkar</string>
-    <string name="name8">Public Relations:\nShivam Sehgal</string>
-    <string name="name9">Public Relations:\nKshitij Tomar</string>
+    <string name="name3">Vice-Chairperson: Sarthak Agarwal</string>
+    <string name="name4">General Secretary: Rashika Mann</string>
+    <string name="name5">Treasurer: Rishabh Jain</string>
+    <string name="name6">Industrial Relations: Aashish Kapoor</string>
+    <string name="name7">Public Relations: Ayush Makkar</string>
+    <string name="name8">Public Relations: Shivam Sehgal</string>
+    <string name="name9">Public Relations: Kshitij Tomar</string>
 
     <!-- Counsellors and Advisors -->
     <string name="teacher1">Mr. Sitender\n\nBranch Counselor, IEEE MSIT</string>
@@ -78,6 +78,160 @@
     <!-- Android Team -->
     <string name="aname1">Shivam Rastogi</string>
     <string name="aname2">Akanksha Jolly</string>
+
+
+    <!-- Info Questions -->
+    <string name="q1">What is IEEE <xliff:g id="society_name">%s</xliff:g>?</string>
+    <string name="q2">What is IEEE MSIT <xliff:g id="society_name">%s</xliff:g>?</string>
+    <string name="q3">Benefits of joining IEEE MSIT <xliff:g id="society_name">%s</xliff:g></string>
+    <string name="q4">Present Execom</string>
+    <string name="q5">Past Events</string>
+    <string name="q6">Future Events</string>
+    <string name="q7">Personal Achievements</string>
+    <string name="q8"><xliff:g id="society_name">%s</xliff:g> MSIT Achievements</string>
+
+    <!-- IEEE MSIT CS -->
+    <string name="h1cs">IEEE MSIT CS</string>
+    <string name="a1cs">
+        <![CDATA[
+        <div style="display: block;">
+	<p style="text-align: center;">
+	<p style="text-align: justify;"><em><strong>The scope of the Society shall encompass all aspects of theory, design, practice, and application relating to computer and information processing science and technology.</strong></em></p>
+
+	<p style="text-align: justify;">The IEEE Computer Society is the world\'s leading membership organization dedicated to computer science and technology. Serving more than 60,000 members, the IEEE Computer Society is the trusted information, networking, and career-development source for a global community of technology leaders that includes researchers, educators, software engineers, IT professionals, employers, and students.</p>
+
+	<p style="text-align: justify;">The IEEE Computer Society sponsors more than&nbsp;<strong><a href="https://www.computer.org/web/conferences">200 technical conferences</a></strong>&nbsp;and events each year, including the industry-oriented "<strong><a href="https://www.computer.org/web/rock-stars">Rock Stars</a></strong>" series, all over the world, aimed at research and industry professionals. Our publications are peer-reviewed, indexed, and authored by technology thought leaders worldwide, and include&nbsp;<strong><a href="https://www.computer.org/web/publications/transactions">17 scholarly journals</a></strong>&nbsp;and&nbsp;<strong><a href="https://www.computer.org/web/publications/magazines">13 magazines</a></strong>&nbsp;featuring the latest technology trends. We also offer cutting-edge products such as the&nbsp;<strong><a href="https://www.computer.org/web/mycomputer" target="_blank">myComputer app</a></strong>&nbsp;(available for iOS or Android), that provide unprecedented user-driven access to our content, and our&nbsp;<strong><a href="https://www.computer.org/web/csdl">Digital Library</a></strong>&nbsp;with more than 550,000 articles and papers spanning the full spectrum of computer science and technology.</p>
+
+	<p style="text-align: justify;">In addition to conferences and publishing, the IEEE Computer Society is a leader in&nbsp;<a href="https://www.computer.org/web/education/"><strong>professional education and training</strong></a>, and has forged development and&nbsp;<a href="https://www.computer.org/web/corporate-programs/"><strong>provider partnerships with major institutions and corporations</strong></a>&nbsp;internationally. These rich, self-selected, and self-paced programs help companies improve the quality of their technical staff and attract top talent while reducing costs.</p>
+
+	<p style="text-align: justify;">We\'re on the cutting edge of current issues in technology, and we have a wide range of networking and volunteer leadership opportunities for our members, including over&nbsp;<strong><a href="https://www.computer.org/web/chapters">400 local and regional chapters</a></strong>&nbsp;as well as more than&nbsp;<a href="https://www.computer.org/web/tandc/technical-committees"><strong>40 technical communities</strong></a>. We recognize our field\'s pioneers and visionaries through a robust&nbsp;<strong><a href="https://www.computer.org/web/awards">awards program</a></strong>&nbsp;and work to support the next generation of technology leaders through our&nbsp;<strong><a href="https://www.computer.org/web/students">student scholarships</a></strong>.</p>
+
+	<p style="text-align: justify;">The IEEE Computer Society is a&nbsp;<strong><a href="https://www.computer.org/web/volunteers">volunteer-led organization</a></strong>&nbsp;with an active and engaged membership driving excellence at the governance level—President, Vice Presidents, and executive officers; the Board of Governors, operational Boards (such as Publications, Technical &amp; Conference Activities, and Professional and Educational Activities), and a variety of permanent and ad hoc committees. Our publications are led by volunteer Editors-in-Chief and editorial boards. All these activities are supported by a professional staff, led by an Executive Director, with offices in Washington, DC and Southern California. &nbsp;IEEE offices in Tokyo, China, India and Singapore also lend support for Society activities.&nbsp;</p>
+
+	<p style="text-align: justify;">The IEEE Computer Society is the community for technology leaders. As the computing professional\'s single, unmatched source for technology information, inspiration and collaboration, we are the organization that computing\'s leaders, innovators, and researchers trust. .</p>
+
+	<p style="text-align: justify;"><b>Computer Society Vision</b></p>
+
+	<p style="text-align: justify;">To be the leading provider of technical information, community services, and personalized services to the world\'s computing professionals.</p>
+
+	<p style="text-align: justify;"><b>Computer Society Goal</b></p>
+
+	<p style="text-align: justify;">Be essential to the global technical community and computer professionals everywhere and be universally recognized for the contributions of technical professionals in developing and applying technology to improve global conditions.</p>
+</div>
+    ]]>
+    </string>
+    <string name="a2cs">
+        IEEE MSIT CS Student branch is an initiative to bring exposure to the members about the advancements in the field of Computer Science Technology, to build confidence, increase their interaction abilities and to make contacts with the experts of various technical fields.The student branch of MSIT was registered with IEEE, USA in March, 2009 and it marked the beginning of the journey of IEEE, MSIT onto the path of constant upgradations and developments. In the year of 2013, IEEE MSIT CS came into existence and since then it has never looked back.
+    </string>
+    <string name="a3cs">
+        <![CDATA[
+       <div style="display: block;">
+	<p>Following are the benefits of joining IEEE CS MSIT:-</p>
+
+	<p><b><em>Computer</em>&nbsp;Magazine</b></p>
+
+	<p>The flagship publication of the IEEE Computer Society.</p>
+
+	<p><b>Conference Events</b></p>
+
+	<p>Forums for top minds to come together to develop, validate, and disseminate leading-edge information.</p>
+
+	<p><b>Webinars</b></p>
+
+	<p>Cost-effective, cutting-edge training — anytime, anywhere.</p>
+
+	<p><b>ComputingEdge</b></p>
+
+	<p>A curated digest with articles from our 13 leading technology publications plus original content in a single experience.</p>
+
+	<p><b>Chapter Membership</b></p>
+
+	<p>More than 480 worldwide chapters offer leadership, professional development, and career advancement opportunities for both professionals and students.</p>
+
+	<p><b>myCS</b></p>
+
+	<p>Member-only, interactive, mobile-ready digital publication portal.</p>
+</div>
+
+    ]]>
+    </string>
+    <string name="a5cs">
+        <![CDATA[
+       <div style="display: block;">
+	<p style="text-align: justify;"><b>Code Start (31st October 2015)</b></p>
+
+	<p style="text-align: justify;">IEEE Computer Society through its endeavors has always been instrumental in conducting popular coding competitions round the year which are eagerly awaited by the whole student comrade.</p>
+
+	<p style="text-align: justify;">Following the trend, IEEE Computer Society, organized Codestart - The competitive programming competition on 31st October this year. The event was organized in MSIT labs.</p>
+
+	<p style="text-align: justify;">Around 32 teams, i.e. 100 students from various streams and years participated in the competition to showcase their skills and to prove their mettle on ground zero. The winning team was awarded certificates and cash prizes.</p>
+
+	<p style="text-align: justify;"><b>Machine Learning (29th January 2016)</b></p>
+
+	<p style="text-align: justify;">The computer society has been crucial in popularizing some of the latest market trends for fresher advancements. Thus, the event not only polished the technical skill set of the students but also provided them with plethora of opportunities.</p>
+
+	<p style="text-align: justify;"><b>Introduction to Machine Learning on 29th January 2016(Friday)</b></p>
+
+	<p style="text-align: justify;">The session was taken by Mr. Karan Hora, final year student of CSE department, MSIT. It was attended by about 50 students from different streams and branches.</p>
+
+	<p style="text-align: justify;">The session gave an introduction to machine learning to the students, including supervised learning, CART model, random forest, neural networks, etc, deep learning, reinforcement learning, real time twitter sentiment mining, etc. Students were shown examples of recommendation system used in YouTube. Also, a live example of different Self Taught Game Playing AI was demonstrated by the trainer. Students showed great interest in the topic and session ended with success.</p>
+
+	<p style="text-align: justify;"><b>Summer Mentored Projects (15th June 2016 – 31st&nbsp;July 2016)</b></p>
+
+	<p style="text-align: justify;">IEEE MSIT Computer Society Student Branch organised a project mentorship program for all Computer Society members. Siddarth Goyal, Mayank Kashyap and Devika Mehra were assigned as the mentors for guiding students to develop basic understanding of Python, Ruby on Rails and Android Development. It was attended by 8 students of the Computer Society.</p>
+
+	<p style="text-align: justify;">The Python session enlightened the students to learn the necessary skills one needs to start developing websites using python. Under the mentorship, http://www.freahers.xyz and https://bhavya-blogs.appspot.com were the successful end products developed by the students. The website was not only based on the concepts of python but also included the knowledge of Google App Engine, Jinja2, CSS and javascript. It was an encouraging and enriching experience for students.</p>
+
+	<p style="text-align: justify;">The session on Ruby on Rails was a reinforcing session for the fresher. The students were groomed to develop web applications using Ruby. They were given the privilege to work on IEEE website. The work was done on both backend and frontend. The students were taught how to make developing web application easier and fun to code. The session will not only help students develop websites but also assisted them to step in the field of Open Source Development.</p>
+
+	<p style="text-align: justify;">The session on Android App Development was an advantageous program for all the students involved. It assisted students to develop an insight in the field of Mobile Development. The session started with the basic knowledge of Java and XML. Students were then lead to the basic development of Android with all its layout, views and listeners. The students were aided to maintain their data on the server. The students felt encouraged to learn a new skill and were inspired to put it to some great use. Student showed a great interest during the session and made the mentorship a great success.</p>
+
+	<p style="text-align: justify;"><b>Boot Camp (13th August 2016) </b></p>
+
+	<p style="text-align: justify;">A boot - camp was organized in association with Coding Ninjas by IEEE MSIT Computer Society on 13th August 2016. The theme of the boot - camp was to help the students “Kick - start with their programming career.”</p>
+
+	<p style="text-align: justify;">The primary speaker was Ankush Singla, an alumni of Stanford University and IIT – Delhi. He has an experience of working at bigwigs like Amazon and Facebook. He is a code enthusiast and has gained a lot of expertise in this field. The event started with a warm welcome to the dignitary by our respected Deputy Director, Prof. Poonam Bansal. The event was attended by enthusiastic freshers and some students of second and third year. The attendees varied over the all branches.</p>
+
+	<p style="text-align: justify;">Initially, Mr. Singla helped the students to develop the skills required by a programmer. Starting from the very basic to the intermediate level of coding, students learned a lot. Most of the students carried their laptops with them. The basic programs were not only discussed, but also implemented by the students using an IDE.</p>
+
+	<p style="text-align: justify;">All the attendees thoroughly enjoyed the session. Mr. Singla also encouraged the students to enhance their programming to the fullest. He broadens the horizon for all the students by making them aware of the plausible field, they should be working on so as to utilize their capabilities to the fullest. The various options highlighted by him were Competitive programming, Mobile development, Web Development and Open Source Development.</p>
+
+	<p style="text-align: justify;">The event was a great success. It provided the students with the much needed skill and encouragement to start their programming career. The knowledge gained by them would help them explore the various domains.</p>
+	</div>
+
+    ]]>
+    </string>
+    <string name="a6cs">
+        <![CDATA[
+<div style="display: none;">
+	<ul>
+		<li>Codestart Extended</li>
+		<li>Semester Mentored Program</li>
+		<li>Coding Test Compitition</li>
+	</ul>
+</div>
+    ]]>
+    </string>
+    <string name="a7cs">
+        <![CDATA[
+<div style="display: none;">
+	<ul>
+		<li>&nbsp;Mr. Aakash Bansal received IEEE Computer Society Richard E. Merwin Student Scholarship 2016.</li>
+	</ul>
+	</div>
+    ]]>
+    </string>
+    <string name="csname1">Chairperson: Yatin Gupta</string>
+    <string name="csname2">Vice Chair: Prathmesh Ranaut</string>
+    <string name="csname3">Gen Sec: Abhijeet Chauhan</string>
+    <string name="csname4">Public Representative: Sahil Khurana</string>
+    <string name="csname5">Industrial Representative: Vignesh M</string>
+
+
+
+
+
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
