@@ -75,10 +75,12 @@
     <string name="r5c1">IEEE WIE MSIT SBC</string>
     <string name="r5c2">ieeewie@msit.in</string>
 
+    <!-- Android Team -->
+    <string name="aname1">Shivam Rastogi</string>
+    <string name="aname2">Akanksha Jolly</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
-
 
 
     <!--
