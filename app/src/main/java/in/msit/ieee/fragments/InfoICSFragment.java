@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -313,7 +314,7 @@ public class InfoICSFragment extends Fragment {
     }
 
     @OnClick(R.id.in5)
-    public void in() {
+    public void in5() {
         openLinkedIn("https://www.linkedin.com/in/vigzmv");
     }
 
@@ -354,6 +355,7 @@ public class InfoICSFragment extends Fragment {
     private void setData() {
         q1h.setText(getString(R.string.q1, "CS"));
         a1h.setText(Html.fromHtml(getString(R.string.a1cs)));
+        a1h.setMovementMethod(LinkMovementMethod.getInstance());
         q2h.setText(getString(R.string.q2, "CS"));
         q3h.setText(getString(R.string.q3, "CS"));
         a3h.setText(Html.fromHtml(getString(R.string.a3cs)));

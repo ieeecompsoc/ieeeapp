@@ -94,7 +94,7 @@
     <string name="h1cs">IEEE MSIT CS</string>
     <string name="a1cs">
         <![CDATA[
-        <div style="display: block;">
+        <div class="collapsible-body" style="display: block;">
 	<p style="text-align: center;">
 	<p style="text-align: justify;"><em><strong>The scope of the Society shall encompass all aspects of theory, design, practice, and application relating to computer and information processing science and technology.</strong></em></p>
 
@@ -227,9 +227,294 @@
     <string name="csname4">Public Representative: Sahil Khurana</string>
     <string name="csname5">Industrial Representative: Vignesh M</string>
 
+    <!-- IEEE MSIT MTTS -->
+    <string name="h1mtts">IEEE MSIT MTTS</string>
+    <string name="a1mtts">
+        <![CDATA[
+      <div class="collapsible-body" style="display: block;">
+	<p style="text-align: justify;">The IEEE Microwave Theory and Techniques Society (MTT-S) is a transnational society with more than 190 chapters worldwide. Our society promotes the advancement of microwave theory and its applications, including RF, microwave, millimeter-wave, and terahertz technologies.</p>
+
+	<p style="text-align: justify;">For more than 60 years, the MTT-S has worked to advance the professional standing of its members and enhance the quality of life for all people through the development and application of microwave technology. As we enter into an exciting future, our mission is to continue to understand and influence microwave technology and to provide a forum for all microwave engineers. The MTT-S will continue to be the global focus for the promotion of the RF and microwave engineering profession, by advancing and distributing knowledge and supporting professional development.</p>
+
+	<p style="text-align: justify;">This is an all-volunteer society, driven to excellence by its leadership and with the active participation of all its world-wide members.&nbsp; The activities sponsored by the MTT-S include a broad spectrum of conferences, workshops, tutorials, technical committees, chapter meetings, publications and professional education programs. Our principal publications and conferences are world class, peer-reviewed and recognized as top of the class. Our professional venues provide a great opportunity for networking with experienced innovators, experts, and practitioners. Our volunteer programs provide for the development of critical, non-technical skills that enable you to be more effective professionally.</p>
+
+	<p style="text-align: justify;">The core purpose of the Society is to foster the advancement and application of RF and microwave theory and techniques. Members of MTT-S are engaged in research, development, design, or manufacturing of high frequency materials, devices, circuits, components, or systems.</p>
+
+	<p style="text-align: justify;">For more than 60 years the MTT-S has worked to advance the professional standing of its members and enhance the quality of life for all people through the development and application of microwave technology. As we enter into an exciting future, our mission is to continue to understand and influence microwave technology, and to provide a forum for all microwave engineers. The MTT-S will continue to be the global focus for promotion of the RF and microwave engineering profession, by advancing and distributing knowledge and supporting professional development. This is an all- volunteer society, driven to excellence by its leadership, with the active participation of all its world-wide members. The activities sponsored by the MTT-S include a broad spectrum of conferences, workshops, tutorials, technical committees, chapter meetings, publications and professional education programs. Our principal publications and conferences are world class, peer reviewed and recognized as top of class. Our professional venues provide a great opportunity for networking with experienced innovators, experts, and practitioners. Our volunteer programs provide for the development of critical, non-technical skills that enable you to be more effective professionally.</p>
+
+	<p>&nbsp;</p></div>
+    ]]>
+    </string>
+    <string name="a2mtts">
+       <![CDATA[
+      <div style="display: none;">
+	<p style="text-align: justify;">MTTS is a society aiming to foster the advancement and application of RF and microwave. The society commenced in MSIT to promote wireless technology in our institution with a target to research in the field of wireless technology.</p>
+
+	<p style="text-align: justify;">IEEE MTT-S MSIT, has been solemn and successful in establishing its impression among fellow students by being righteous in accomplishing its aim to instill among students a view that would lead to development of critical technical skills that will enable them to be more effective professionally.</p>
+
+	<p style="text-align: justify;">MTTS is a society aiming to foster the advancement and application of RF and microwave. The society commenced in MSIT to promote wireless technology in our institution with a target to research in the field of wireless technology.</p>
+
+	<p style="text-align: justify;">IEEE MTT-S MSIT, has been solemn and successful in establishing its impression among fellow students by being righteous in accomplishing its aim to instill among students a view that would lead to development of critical technical skills that will enable them to be more effective professionally.</p>
+</div>
+    ]]>
+    </string>
+    <!--<string name="a3mtts">-->
+        <!--<![CDATA[-->
+        <!--<div style="display: block;">-->
+		<!--<p style="text-align: justify;">The IEEE MTT-Society boasts about 11,000 members worldwide.&nbsp; The Society sponsors and organizes regional and international conferences, publishes three periodicals plus various technical books, and&nbsp; supports local chapters of microwave professionals all over the world.&nbsp; Although membership in the Society is not required to attend MTT-S sponsored events nor to gain access to MTT-S publications, active members agree that Society membership provides greater opportunities to influence technology developments and engage in meaningful technical discourse.&nbsp;</p>-->
+		<!--<p style="text-align: justify;"><b>PROFESSIONAL NETWORKING OPPORTUNITIES</b></p>-->
+		<!--<p style="text-align: justify;">One of the most important benefits of being an MTT-S member is the opportunity it provides for volunteer networking.&nbsp; This is especially true for members who choose to volunteer to support publishing and event organizing.&nbsp; Member volunteers gain opportunities to work and cooperate with other technical professionals outside their own organizations.&nbsp; Through event planning, they often interact with microwave experts from all over the world.&nbsp; The contacts they make and information they get from these interactions are often extremely valuable to them as they navigate their career in the microwave industry.</p>-->
+		<!--<p><b>MICROWAVE MAGAZINE</b></p>-->
+		<!--<p style="text-align: justify;">IEEE MTT-S members worldwide receive the&nbsp;<a href="https://mtt.org/microwave-magazine">Microwave Magazine</a>&nbsp;as part of their member benefit.&nbsp; The award winning magazine is produced 6 times per year and includes peer reviewed technical articles on a wide range of microwave topics.&nbsp; The Magazine provides several services to MTT-S members, including:&nbsp; the dissemination of timely information from the various MTT Committees; the publication of regular columns giving insight into a range of technical and non-technical interests and the publication of technical features that provide overviews and tutorials on the state-of-the-art in a given area.&nbsp; The magazine in a searchable electronic form is also accessible to all MTT-S members via&nbsp;<a href="http://ieeexplore.ieee.org/Xplore/guesthome.jsp">IEEE Xplore</a>.</p>-->
+		<!--<p><b>DISCOUNTS ON IEEE/WILEY BOOKS</b></p>-->
+		<!--<p style="text-align: justify;">Since 2001,&nbsp;<a href="http://www.ieee.org/publications_standards/publications/books/index.html">IEEE Press</a>&nbsp;has published its works jointly with John Wiley &amp; Sons, bringing the work of IEEE authors to the worldwide technology community.&nbsp; Books are published in many different formats such as e-books, online books, Amazon Kindle and are available through&nbsp;<a href="http://ieeexplore.ieee.org/Xplore/guesthome.jsp">IEEE Xplore</a>, John Wiley’s web site and Amazon as well as other online retail outlets.&nbsp; IEEE Members receive a 15% discount on these titles.</p>-->
+		<!--<p><b>DISCOUNT FOR CONFERENCE REGISTRATION</b></p>-->
+		<!--<p style="text-align: justify;">IEEE members pay reduced registration for most MTT-Society conferences and other organized events.&nbsp; Member registration discounts for the MTT-Society\'s&nbsp;<a href="https://mtt.org/ims">International Microwave Symposium</a>&nbsp;are typically over 30%.&nbsp; For a member who chooses to participate in several of the conference, workshops, short courses, and social events, the discount on registration fees can be greater than the cost of MTT-Society membership for a year.</p>-->
+		<!--<p><b>GET AN @IEEE.ORG EMAIL ALIAS</b></p>-->
+		<!--<p style="text-align: justify;">Stay connected and keep your communication safe with the free IEEE Personal Email Alias.&nbsp; This exclusive member benefit identifies you as an IEEE member with an @ieee.org email address while forwarding all incoming mail to the Internet address you specify. All incoming attachments coming to the alias account are automatically scanned for viruses.&nbsp; Anti-spam features are also available. Setup your own ieee alias or change the settings on your&nbsp;<a href="http://eleccomm.ieee.org/">@ieee.org</a>&nbsp;address today.</p>-->
+		<!--<p><b>OTHER IEEE BENEFITS</b></p>-->
+		<!--<p style="text-align: justify;">IEEE is the world\'s largest technical society, bringing Members access to the industry\'s most essential technical Information, networking opportunities, career development tools, and many other exclusive benefits.&nbsp; The&nbsp;<a href="http://www.ieee.org/membership_services/membership/benefits/index.html">IEEE Benefits of Membership</a>&nbsp;web pages provide a listing and description of a number of other specific products and services offered exclusively to IEEE members.&nbsp; One benefit that is found to be very valuable to many members is the opportunity to purchase low, group rate insurance though&nbsp;<a href="http://www.ieee.org/membership_services/membership/financial_advantage/financial_advantage_insurance.html?WT.mc_id=fap_ins_nav">IEEE Insurance Services</a></p>-->
+	<!--</div>-->
+        <!--]]>-->
+    <!--</string>-->
+    <string name="a5mtts">
+        <![CDATA[
+        <div class="collapsible-body" style="display: block;">
+	<p><b>Summer Grants Program</b></p>
+
+	<p>Students are provided with the opportunity to work on different projects in the domain of RF and wireless communication. Following are the major projects that have been completed successfully,</p>
+
+	<p>1. Sudden Ionospheric Distrubances</p>
+
+	<p>2. NASA Radio Jove</p>
+
+	<p>3. Itty-Bitty Telescope</p>
+
+	<p>The similar sessions are being continued every year during the summer break for all the members of IEEE MTT-S MSIT.</p>
+	</div>
+    ]]>
+    </string>
+    <string name="a7mtts">
+        <![CDATA[
+        <div class="collapsible-body" style="display: block;">
+	<ul>
+		<li>Mr. Anand Pratap Singh received IEEE MTT-S Undergraduate Scholarship 2016.</li>
+		<li>Mr. Aakash Bansal and Mr. Kshitij Tomar won IEEE MTT-S YouTube/YouKu Video Contest 2016.</li>
+	</ul>
+	</div>
+    ]]>
+    </string>
+    <string name="mttsname1">Mentor: Aman Gupta</string>
+    <string name="mttsname2">Chairperson: Varun Goyal</string>
+    <string name="mttsname3">Vice-Chairperson: Rashika Aggarwal</string>
+    <string name="mttsname4">Treasurer: Utkarsh Kr. Singh</string>
+    <string name="mttsname5">General Secretary: Ujjwal Singh</string>
 
 
+    <!-- IEEE MSIT PES -->
+    <string name="h1pes">IEEE MSIT PES</string>
+    <string name="a1pes">
+        <![CDATA[
+      <div class="collapsible-body" style="display: block;">
+	<p style="text-align: justify;">The Power &amp; Energy Society (PES) provides the world&nbsp;largest forum for sharing the latest in technological developments in the electric power industry, for developing standards that guide the development and construction of equipment and systems, and for educating members of the industry and the general public. Members of the Power&amp;amp; Energy Society are leaders in this field, and they — and their employers — derive substantial benefits from involvement with this unique and outstanding association.</p>
 
+	<p><strong>The Mission of PES is:</strong></p>
+
+	<p style="text-align: justify;">To be the leading provider of scientific and engineering information on electric power and energy for the betterment of society, and the preferred professional development source for our members.</p>
+
+	<p>Field of Interest is:</p>
+
+	<p style="text-align: justify;">The scope of the Society embraces research, development, planning, design, construction, maintenance, installation and operation of&nbsp;equipment, structures, materials and power systems for the safe, sustainable, economic and reliable conversion, generation, transmission, distribution, storage and usage of electric energy, including its measurement and control.</p>
+</div>
+
+    ]]>
+    </string>
+    <string name="a2pes">
+       <![CDATA[
+      <div class="collapsible-body" style="display: block;">
+	<p style="text-align: justify;">IEEE MSIT PES Student branch is an initiative to bring exposure to the members about the advancements in the field of power and energy technology, to build confidence, increase their interaction abilities and to make contacts with the experts of various technical fields.The student branch of MSIT was registered with IEEE, USA in March, 2009 and it marked the beginning of the journey of IEEE, MSIT onto the path of constant upgradations and developments. In the year of 2013, IEEE MSIT PES came into existence and since then it has never looked back. It is considered to be one of the most active PES societies in the Delhi section and has won two consecutive High Performance Chapter Awards for the year of 2014 and 2015. Recently, it also won the RES funding in the year of 2016.</p>
+	</div>
+    ]]>
+    </string>
+    <string name="a3pes">
+    <![CDATA[
+   <div class="collapsible-body" style="display: block;">
+	<p>Following are the benefits of joining IEEE PES MSIT:-</p>
+
+	<p>1. Notifications regarding all IEEE events happening across the globe.</p>
+
+	<p>2. Information regarding latest trends in the power and energy society.</p>
+
+	<p>3. Exclusive Access to PES resource center.</p>
+
+	<p>4. Free access to webinars and tutorials on the net.</p>
+
+	<p>5. Paper presentation opportunities and participation at various conferences.</p>
+
+	<p>6. Scholarship opportunities.</p>
+
+	<p>7. Networking opportunities with other PES members.</p>
+
+	<p>8. Access to all events organized by IEEE PES MSIT.</p>
+
+	<p>9. Can help to improve Resume and confidence to present yourselves.</p>
+
+	<p>10. Develop leadership qualities.</p>
+	</div>
+    ]]>
+    </string>
+    <string name="a5pes">
+        <![CDATA[
+      <div class="collapsible-body" style="display: block;">
+	<p>&nbsp;</p>
+
+	<ul>
+		<li><strong>&nbsp;Industry lecture series by Mohak Tyagi, Gensol.</strong></li>
+	</ul>
+
+	<p style="text-align: justify;">On 4th November,2015, IEEE MSIT PES organized a seminar as part of the Industrial lecture series. The topic of the seminar is “Solar Power Industry and its Prospects”. About 95 students from EEE 1st, 2nd 3rd year and IT 1st year attended this seminar. Solar power industry is one of the fastest growing industries,maintaing a annual growth of 40% annually. It is an area of utmost importance to meet requirements of growing economy and to promote the idea of sustainable development. The lecture had an overview of the present working system of solar energy in application, future growth trends, various trends in photovoltaics and thin film technologies and technical and managerial proceedings in an actual solar power project along with an interactive session with the guest speaker at the end of the event.</p>
+
+	<ul>
+		<li>&nbsp;<strong>October Project Week</strong></li>
+	</ul>
+
+	<p>On the occasion of the IEEE DAY, the POWER AND ENERGY SOCIETY (PES) of IEEE MSIT organized ‘OCTOBER PROJECT WEEK’ where a team of students had to register themselves and also had to submit their ideas for their projects. Each team were assigned a mentor, who guided them throughoutthe project work.</p>
+
+	<ul>
+		<li>&nbsp;<strong>Career Guidance Workshop</strong></li>
+	</ul>
+
+	<p style="text-align: justify;">A workshop was organized by the electrical and electronics department and&nbsp;IEEE PES graciously hosted the seminar meeting on August 11, 2016.More than seventy students of EEE department actively participated in this workshop.The various topics to be studied during the four years of electrical and electronics engineering were briefed through presentations and interactive multiple choice questions. The former gold medalist also shared his experiences with the students and discussed about his future projects which included his project on smart grids</p>
+
+	<ul>
+		<li>&nbsp;<strong>Skill India Workshop</strong></li>
+	</ul>
+
+	<p style="text-align: justify;">A workshop on &amp;quot; Skill INDIA&amp;quot; was organised by IEEE PES MSIT on 11th April, 2016. This workshop was organised to give information to students about the Skill India Movement and how to be part of it. This workshop also highlighted the various skills that a student must have in order to become a successful professional. This workshop was attended by 55 students and 10 guest members of the EEE departments of the Maharaja Surajmal Institute of Technology.</p>
+
+	<ul>
+		<li><strong>T.I.M.E Workshop</strong></li>
+	</ul>
+
+	<p style="text-align: justify;">A workshop was organized by the electrical and electronics department in association with T.I.M.E. IEEE PES graciously hosted the seminar meeting on August 11, 2016.More than seventy students of EEE department actively participated in this workshop. The seminar was hosted by a former IIT gold medalist in electrical and electronics department and currently working with T.I.M.E. Triumphant Institute of Management Education Private Limited provides coaching classes for various entrance exams including GATE, CAT, Bank exams, CSAT. They informed about the various choices that an undergraduate electrical engineer can opt for.In the workshop, the students were schooled about advantages of becoming an electrical engineer. They were told about the elevated competition today which was roughly stated about 1.5 lakh and also about benefits offered after the introduction of 7 th &nbsp;pay commission and its impact in the field of electrical engineering. The attendees were enlightened about different companies that offers job to an electrical engineer after securing a decent GATE score (Graduate aptitude test). Entrance exams such as Engineering Services Examination were discussed where students can apply.</p>
+
+	<ul>
+		<li>&nbsp;<strong>Summer Grant Program</strong></li>
+	</ul>
+
+	<p style="text-align: justify;">IEEE PES MSIT Summer Project Initiative &amp;quot;Advancing humanity through technology&amp;quot; is the driving motive of IEEE. IEEE PES MSIT introduced the Summer Project Program, an initiative to impart practical electrical engineering skills to the students. The projects were fully sponsored. Each project was made by a group of students and the completed projects was displayed along with projects from IEEE MSIT&nbsp;project initiative at an exhibition later in college.</p>
+
+	<ul>
+		<li>&nbsp;<strong>Industrial</strong><strong> trip to Kalinga Wires </strong><strong>Pvt.</strong><strong> Ltd.</strong></li>
+	</ul>
+
+	<p style="text-align: justify;">On the 29th December 2016 the department of IEEE PES had organized an industrial visit for students of the MSIT EEE Branch who were accompanied by Mrs. Jyoti Jain of the EEE department. The visit was to the Kalinga Wires and Cables industries situated at Naraina Industrial area phase- I. Within the industry premises Mr. Ram Chandran serving as manger took charge and had taken the group to his cabin and briefed about how the cables and wires are major equipment for transmission &amp;amp; distribution of electrical power in substations, distribution systems, house wiring, street lighting. The company envisages manufacturing of PVC Insulated single/multicore wires and cables of 4mm 2 &nbsp;and 6mm 2 &nbsp;&nbsp;diameter copper conductors extensively used in house wiring service connections permanent &amp;amp; temporary connections of electrical power overhead lines .Their Plant produced flame resistant and retardant wire cables to adhere to the safety norms and restrict the fire and toxic smoke generation.</p>
+
+	<ul>
+		<li>&nbsp;<strong>Be-ENGG Workshops</strong></li>
+	</ul>
+
+	<p style="text-align: justify;">The active members of IEEE PES MSIT, New Delhi organised a workshop in GD GOENKA PUBLIC SCHOOL, ROHINI on 5th October 2016. The workshop was well received and eqipped with interesting working models like LFRs, security system, etc. The basic aim to develop the interest of the young minds towards engineering. Topics like Semiconductors, and Power supplies were also explained. Origin and mission of IEEE were also discussed.</p>
+	</div>
+    ]]>
+    </string>
+    <string name="a6pes">
+        <![CDATA[
+     <div class="collapsible-body" style="display: block;">
+	<ul>
+		<li>Project Series</li>
+		<li>Lectures series</li>
+		<li>Be-Eng workshop</li>
+	</ul>
+</div>
+    ]]>
+    </string>
+    <string name="a7pes">
+        <![CDATA[
+       <div class="collapsible-body" style="display: block;">
+	<ul>
+		<li>Mayank Kataria was selected as a student delegate in the 2 nd PES student congress held at Kuala lumpur, Malayasia in August ,2016</li>
+	</ul>
+	</div>
+    ]]>
+    </string>
+    <string name="a8pes">
+        <![CDATA[
+      <div class="collapsible-body" style="display: block;">
+	<ul>
+		<li>&nbsp;Received HPSBC Award for the year of 2014 and 2015.</li>
+		<li>&nbsp;Received RES funding.</li>
+	</ul>
+	</div>
+    ]]>
+    </string>
+    <string name="pesname1">Chairperson: Shayari Bhattacharjee</string>
+    <string name="pesname2">Execom Member: Souvik Banerjee</string>
+    <string name="pesname3">Execom Member: Devansh Sehrawat</string>
+    <string name="pesname4">Execom Member: Vamika Rastogi</string>
+    <string name="pesname5">Execom Member: Avantika Mishra</string>
+    <string name="pesname6">Execom Member: Vikrant Thakur</string>
+    <string name="pesname7">Execom Member: Garima Saluja</string>
+
+
+    <!-- IEEE MSIT WIE -->
+    <string name="h1wie">IEEE MSIT WIE</string>
+    <string name="a1wie">
+        <![CDATA[
+     <div class="collapsible-body" style="display: block;">
+	<p style="text-align: justify;">IEEE Women in Engineering (WIE) is the largest international professional organization dedicated to promoting women engineers and scientists. We are a global network of women professionals dedicated towards advancements in the field of science and technology. The mission of IEEE WIE is to facilitate the recruitment and retention of women in technical disciplines globally. IEEE WIE envisions a vibrant community of IEEE women and men collectively using their diverse talents to innovate for the benefit of humanity.</p>
+
+	<p style="text-align: justify;">&nbsp;</p>
+
+	<p style="text-align: justify;">IEEE WIE strives to:</p>
+
+	<ul>
+		<li style="text-align: justify;">recognize women\'s outstanding achievements in electrical and electronics engineering through IEEE Awards nominations;</li>
+		<li style="text-align: justify;">organize receptions at major technical conferences to enhance networking and to promote membership in WIE;</li>
+		<li style="text-align: justify;">advocate women in leadership roles in IEEE governance and career advancement for women in the profession;</li>
+		<li style="text-align: justify;">provide assistance with the formation of new WIE Affinity Groups and support ongoing activities;</li>
+		<li style="text-align: justify;">promote IEEE member grade advancement for women to the membership grades of Senior member and Fellow;</li>
+		<li style="text-align: justify;">facilitate the development of programs and activities that promote the entry into and retention of women in engineering programs;</li>
+		<li style="text-align: justify;">administer the IEEE Student-Teacher and Research Engineer/Scientist (STAR) Program to mentor young women in junior and high schools.</li>
+	</ul>
+
+	<p>&nbsp;</p>
+	</div>
+
+    ]]>
+    </string>
+    <string name="a2wie">
+       <![CDATA[
+      <div class="collapsible-body" style="display: block;">
+	<p style="text-align: justify;">IEEE WIE MSIT is an affinity group under IEEE MSIT. We are a community of flourishing engineering students who wish to bolster the upcoming class of young female innovators and learners. IEEE MSIT has always dedicated itself to promote potential female researchers who still hesitate at the thresholds of laboratories. The mission of IEEE WIE is to inspire, engage, encourage, and empower IEEE women worldwide and to facilitate the recruitment and retention of women in technical disciplines globally. IEEE WIE envisions a vibrant community of IEEE women and men collectively using their diverse talents for innovating the world of tomorrow. Benefits of joining IEEE WIE members can meet colleagues with similar interests in promoting women in engineering and technology and participate in activities that support the WIE mission.</p>
+	</div>
+    ]]>
+    </string>
+    <string name="a3wie">
+    <![CDATA[
+  <div class="collapsible-body" style="display: block;">
+	<p>Following are the benefits of joining IEEE MSIT WIE:-</p>
+
+	<ul>
+		<li>access to the electronic WIE Membership Directory;</li>
+		<li>monthly WIE electronic newsletter which contains career information, reports on WIE and Affinity Group activities, IEEE news, and more</li>
+		<li>opportunities to network, volunteer, and participate in local WIE activities.</li>
+	</ul>
+	</div>
+    ]]>
+    </string>
+    <string name="a7wie">
+        <![CDATA[
+       <<div class="collapsible-body" style="display: block;">
+	<ul>
+		<li>Ms. Deepali Jain attended the International Leadership Summit 2016 at Pune</li>
+	</ul>
+	</div>
+    ]]>
+    </string>
+    <string name="wiename1">Chairperson: Deepali Jain</string>
+    <string name="wiename2">Vice-Chairperson: Akansha Agnihotri</string>
+    <string name="wiename3">General Secretary: Disha Mendiratta</string>
 
 
 
