@@ -5,26 +5,37 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.View;
+import android.view.ViewGroup;
 
 /**
  * Created by shivam on 8/12/17.
  */
 
-public class RecyclerViewEmptyViewSupport extends RecyclerView {
+public class NonScrollableRecyclerViewEmptyViewSupport extends RecyclerView {
 
     @Nullable
     private View emptyView;
 
-    public RecyclerViewEmptyViewSupport(Context context) {
+    public NonScrollableRecyclerViewEmptyViewSupport(Context context) {
         super(context);
     }
 
-    public RecyclerViewEmptyViewSupport(Context context, AttributeSet attrs) {
+    public NonScrollableRecyclerViewEmptyViewSupport(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public RecyclerViewEmptyViewSupport(Context context, AttributeSet attrs, int defStyle) {
+    public NonScrollableRecyclerViewEmptyViewSupport(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
+    }
+
+    //Code to make the RecyclerView non scrollable
+    @Override
+    public void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        int heightMeasureSpec_custom = View.MeasureSpec.makeMeasureSpec(
+                Integer.MAX_VALUE >> 2, View.MeasureSpec.AT_MOST);
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec_custom);
+        ViewGroup.LayoutParams params = getLayoutParams();
+        params.height = getMeasuredHeight();
     }
 
     private void checkIfEmpty() {

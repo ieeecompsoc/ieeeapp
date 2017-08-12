@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collections;
 
 /**
  * Created by shivam on 8/12/17.
@@ -24,6 +25,7 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder
 
     public EventsAdapter(ArrayList<Event> list) {
         this.eventArrayList = list;
+        Collections.sort(eventArrayList, Event.EventTimeStamp);
         calendar = Calendar.getInstance();
     }
 

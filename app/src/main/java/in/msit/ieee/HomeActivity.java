@@ -15,6 +15,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.google.firebase.database.FirebaseDatabase;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -47,6 +49,7 @@ public class HomeActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_home);
 
         ButterKnife.bind(this);
@@ -73,6 +76,11 @@ public class HomeActivity extends AppCompatActivity
         });
 
         setTitle("");
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
     }
 
     @Override
