@@ -15,6 +15,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -38,7 +40,7 @@ import in.msit.ieee.NonScrollableRecyclerViewEmptyViewSupport;
 public class UpcomingEventsFragment extends Fragment {
 
     @BindView(R.id.blank_message_view)
-    TextView blankMessageView;
+    ProgressBar blankMessageView;
 
     @BindView(R.id.recyler_view)
     NonScrollableRecyclerViewEmptyViewSupport recyclerView;
