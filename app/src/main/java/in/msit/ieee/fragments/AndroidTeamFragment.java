@@ -43,32 +43,47 @@ public class AndroidTeamFragment extends Fragment {
 
     @OnClick(R.id.gmail1)
     public void gmail1() {
-        openGmail("shivam.ras304@gmail.com");
+        openGmail("aayush.ranaut@gmail.com");
     }
 
     @OnClick(R.id.fb1)
     public void fb1() {
-        openFaceBook("https://www.facebook.com/shivamras304");
+        Toast.makeText(getContext(), "Not available at the moment!", Toast.LENGTH_SHORT).show();
     }
 
     @OnClick(R.id.in1)
     public void in1() {
-        openLinkedIn("https://www.linkedin.com/in/shivamras304");
+        openLinkedIn("https://linkedin.com/in/PrathmeshRanaut");
     }
-
 
     @OnClick(R.id.gmail2)
     public void gmail2() {
-        openGmail("akankshajolly97@gmail.com");
+        openGmail("shivam.ras304@gmail.com");
     }
 
     @OnClick(R.id.fb2)
     public void fb2() {
-        Toast.makeText(getContext(), "Not available at the moment!", Toast.LENGTH_SHORT).show();
+        openFaceBook("https://www.facebook.com/shivamras304");
     }
 
     @OnClick(R.id.in2)
     public void in2() {
+        openLinkedIn("https://www.linkedin.com/in/shivamras304");
+    }
+
+
+    @OnClick(R.id.gmail3)
+    public void gmail3() {
+        openGmail("akankshajolly97@gmail.com");
+    }
+
+    @OnClick(R.id.fb3)
+    public void fb3() {
+        Toast.makeText(getContext(), "Not available at the moment!", Toast.LENGTH_SHORT).show();
+    }
+
+    @OnClick(R.id.in3)
+    public void in3() {
         openLinkedIn("https://www.linkedin.com/in/akanksha-jolly-b811a7138");
     }
 
